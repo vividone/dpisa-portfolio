@@ -34,7 +34,12 @@ export function ProjectsSection() {
 						>
 							<p>
 DPISA LLC
-								<ul>
+		
+							</p>
+						</h1>
+						<p 							className="text-sm md:text-md xl:text-md font-bold"
+>
+						<ul>
 									<li>Video editing: Creating engaging and informative video content for a variety of platforms.</li>
 									<li>Cinematography: Directing and producing high-quality video content with a strong visual concept.
 </li>
@@ -45,8 +50,7 @@ DPISA LLC
 <li>Cyber Security.
 </li>
 									</ul>
-							</p>
-						</h1>
+						</p>
 </div>
 					
 				</div>
