@@ -1,3 +1,3 @@
 export const SITE_STRINGS = {
-	textLogo: "dpisa LLC",
+	textLogo: "DPISA LLC",
 };

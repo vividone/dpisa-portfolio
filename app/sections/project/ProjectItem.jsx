@@ -1,10 +1,9 @@
 import { Suspense, useRef } from "react";
 import { useInView } from "framer-motion";
 import Link from "next/link";
-import ImageGallery from "react-image-gallery";
 import { Loader } from "components";
-import { VscSourceControl } from "react-icons/vsc";
 import { FiExternalLink } from "react-icons/fi";
+import Image from "next/image";
 
 import "react-image-gallery/styles/css/image-gallery.css";
 
@@ -38,6 +37,8 @@ export function ProjectItem({ project, index }) {
 							lazyload
 							additionalClass="gallery-item"
 						/> */}
+
+						<Image src={image} alt={title} width="435" height="465" />
 					</Suspense>
 				</div>
 			</figure>

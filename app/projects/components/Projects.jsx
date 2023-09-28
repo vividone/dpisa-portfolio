@@ -6,7 +6,7 @@ export function Projects({ projects }) {
 			{projects
 				?.sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt))
 				?.map((project, index) => (
-					<ProjectItem key={project._id} project={project} index={index} />
+					<ProjectItem key={project.id} project={project} index={index} />
 				))}
 		</div>
 	);
