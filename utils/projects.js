@@ -73,13 +73,13 @@ image: "/projects/Lydia.jpeg"	},
 		description:
 			"Walk For Love Africa (WFL) Is A Non-Profit Organisation And A Pioneer In Promoting Intra-Africa Connectivity Towards Creating A Central Domestic African Market For Trade And Tourism.",
 image: "/projects/WFL.jpeg"	},
-	{
-		id: "pension",
-		title: "Pensions Alliance Limited (PAL Pensions)",
-		liveUrl: "https://www.palpensions.com/",
-		description:
-			"Pensions Alliance Limited (PAL Pensions) is a joint venture between FSDH Group and African Alliance Insurance Company Limited. PAL Pensions is a pension fund administrator that provides pension management services to individuals and organizations.",
-image: "/projects/PAL.jpeg"	},
+// 	{
+// 		id: "pension",
+// 		title: "Pensions Alliance Limited (PAL Pensions)",
+// 		liveUrl: "https://www.palpensions.com/",
+// 		description:
+// 			"Pensions Alliance Limited (PAL Pensions) is a joint venture between FSDH Group and African Alliance Insurance Company Limited. PAL Pensions is a pension fund administrator that provides pension management services to individuals and organizations.",
+// image: "/projects/PAL.jpeg"	},
 	{
 		id: "unotelos",
 		title: "Unotelos",
