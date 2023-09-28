@@ -31,8 +31,7 @@ export function ProjectsSection() {
 						<h1 tabIndex="0" className="text-3xl md:text-5xl xl:text-6xl font-bold">
 							<p>Our Capacity</p>
 						</h1>
-						<p className="mt-5 text-sm md:text-md xl:text-md">
-							<ul>
+							<ul className="mt-5 text-sm md:text-md xl:text-md">
 								<li className="pb-3">
 									<span className="font-bold">Video editing:</span> Creating engaging and
 									informative video content for a variety of platforms.
@@ -54,7 +53,7 @@ export function ProjectsSection() {
 								</li>
 								<li>Cyber Security.</li>
 							</ul>
-						</p>
+						
 					</div>
 				</div>
 			</section>
