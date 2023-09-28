@@ -28,31 +28,34 @@ export function ProjectsSection() {
 			<section id="intro" className="section">
 				<div className="grid grid-cols-1 md:grid-cols-[1fr_0.5fr] lg:grid-cols-[1fr_0.7fr] gap-4 items-center">
 					<div className="py-5 md:py-10">
-						<h1
-							tabIndex="0"
-							className="text-3xl md:text-5xl xl:text-6xl font-bold"
-						>
-							<p>
-DPISA LLC
-		
-							</p>
+						<h1 tabIndex="0" className="text-3xl md:text-5xl xl:text-6xl font-bold">
+							<p>Our Capacity</p>
 						</h1>
-						<p 							className="text-sm md:text-md xl:text-md font-bold"
->
-						<ul>
-									<li>Video editing: Creating engaging and informative video content for a variety of platforms.</li>
-									<li>Cinematography: Directing and producing high-quality video content with a strong visual concept.
-</li>
-<li>Frontend and backend development: Expertise in developing user-friendly web and mobile applications using a variety of programming languages and frameworks.
-</li>
-<li> Ability to handle both frontend and backend development, ensuring seamless integration
-</li>
-<li>Cyber Security.
-</li>
-									</ul>
+						<p className="mt-5 text-sm md:text-md xl:text-md">
+							<ul>
+								<li className="pb-3">
+									<span className="font-bold">Video editing:</span> Creating engaging and
+									informative video content for a variety of platforms.
+								</li>
+								<li className="pb-3">
+									<span className="font-bold">
+									Cinematography:</span> Directing and producing high-quality video content with a strong
+									visual concept.
+								</li>
+								<li className="pb-3">
+									<span className="font-bold">
+									Frontend and backend development: </span> Expertise in developing user-friendly web and
+									mobile applications using a variety of programming languages and frameworks.
+								</li>
+								<li className="pb-3">
+									<span className="font-bold"> Fullstack Development: </span>
+									Ability to handle both frontend and backend development, ensuring seamless
+									integration
+								</li>
+								<li>Cyber Security.</li>
+							</ul>
 						</p>
-</div>
-					
+					</div>
 				</div>
 			</section>
 
@@ -62,7 +65,8 @@ DPISA LLC
 
 				<div className="flex flex-col items-center gap-8 md:gap-14">
 					<Suspense
-						fallback={ <div className="flex-center">
+						fallback={
+							<div className="flex-center">
 								<Loader />
 							</div>
 						}

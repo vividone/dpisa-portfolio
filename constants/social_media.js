@@ -17,6 +17,6 @@ export const SOCIAL_MEDIA = [
 		id: "mail",
 		icon: <BsFillEnvelopeOpenFill />,
 		title: "Send us an email",
-		url: "mailto://info@dpaiconsulting.com"
+		url: "mailto://dpisa002@gmail.com"
 	}
 ];
