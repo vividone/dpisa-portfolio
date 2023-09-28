@@ -33,7 +33,18 @@ export function ProjectsSection() {
 							className="text-3xl md:text-5xl xl:text-6xl font-bold"
 						>
 							<p>
-								We are DPSIA Consulting
+DPISA LLC
+								<ul>
+									<li>Video editing: Creating engaging and informative video content for a variety of platforms.</li>
+									<li>Cinematography: Directing and producing high-quality video content with a strong visual concept.
+</li>
+<li>Frontend and backend development: Expertise in developing user-friendly web and mobile applications using a variety of programming languages and frameworks.
+</li>
+<li> Ability to handle both frontend and backend development, ensuring seamless integration
+</li>
+<li>Cyber Security.
+</li>
+									</ul>
 							</p>
 						</h1>
 </div>
