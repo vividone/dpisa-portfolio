@@ -25,38 +25,6 @@ export function ProjectsSection() {
 
 	return (
 		<LazyMotion features={domAnimation}>
-			<section id="intro" className="section">
-				<div className="grid grid-cols-1 md:grid-cols-[1fr_0.5fr] lg:grid-cols-[1fr_0.7fr] gap-4 items-center">
-					<div className="py-5 md:py-10">
-						<h1 tabIndex="0" className="text-3xl md:text-5xl xl:text-6xl font-bold">
-							<p>Our Capacity</p>
-						</h1>
-							<ul className="mt-5 text-sm md:text-md xl:text-md">
-								<li className="pb-3">
-									<span className="font-bold">Video editing:</span> Creating engaging and
-									informative video content for a variety of platforms.
-								</li>
-								<li className="pb-3">
-									<span className="font-bold">
-									Cinematography:</span> Directing and producing high-quality video content with a strong
-									visual concept.
-								</li>
-								<li className="pb-3">
-									<span className="font-bold">
-									Frontend and backend development: </span> Expertise in developing user-friendly web and
-									mobile applications using a variety of programming languages and frameworks.
-								</li>
-								<li className="pb-3">
-									<span className="font-bold"> Fullstack Development: </span>
-									Ability to handle both frontend and backend development, ensuring seamless
-									integration
-								</li>
-								<li>Cyber Security.</li>
-							</ul>
-						
-					</div>
-				</div>
-			</section>
 
 			<section id="projects" className="section">
 				<HeadingDivider title="Recent projects" />
@@ -89,6 +57,38 @@ export function ProjectsSection() {
 					>
 						{/* <button aria-label="See more projects">More projects</button> */}
 					</Link>
+				</div>
+			</section>
+			<section id="intro" className="section">
+				<div className="grid grid-cols-1 md:grid-cols-[1fr_0.5fr] lg:grid-cols-[1fr_0.7fr] gap-4 items-center">
+					<div className="py-5 md:py-10">
+						<h1 tabIndex="0" className="text-3xl md:text-5xl xl:text-6xl font-bold">
+							<p>Our Capacity</p>
+						</h1>
+						<ul className="mt-5 text-sm md:text-md xl:text-md">
+							<li className="pb-3">
+								<span className="font-bold">Video editing:</span> Creating engaging and informative
+								video content for a variety of platforms.
+							</li>
+							<li className="pb-3">
+								<span className="font-bold">Cinematography:</span> Directing and producing
+								high-quality video content with a strong visual concept.
+							</li>
+							<li className="pb-3">
+								<span className="font-bold">Frontend and backend development: </span> Expertise in
+								developing user-friendly web and mobile applications using a variety of programming
+								languages and frameworks.
+							</li>
+							<li className="pb-3">
+								<span className="font-bold"> Fullstack Development: </span>
+								Ability to handle both frontend and backend development, ensuring seamless
+								integration
+							</li>
+							<li className="pb-3">
+								<span className="font-bold">Cyber Security.</span>
+							</li>
+						</ul>
+					</div>
 				</div>
 			</section>
 		</LazyMotion>
