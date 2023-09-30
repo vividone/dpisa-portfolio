@@ -27,7 +27,11 @@ export function ProjectsSection() {
 		<LazyMotion features={domAnimation}>
 
 			<section id="projects" className="section">
-				<HeadingDivider title="Recent projects" />
+
+			<h1 tabIndex="0" className="text-3xl md:text-5xl xl:text-6xl font-bold text-right" >
+							<p>Projects</p>
+						</h1>
+				{/* <HeadingDivider title="Projects" /> */}
 				<div className="h-10 md:h-14" />
 
 				<div className="flex flex-col items-center gap-8 md:gap-14">
