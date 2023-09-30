@@ -21,7 +21,7 @@ export const projects = [
 		liveUrl: "https://nogicjqs.gov.ng/",
 		description:
 			"Nigerian Oil and Gas Industry Joint Qualification system (NOGICJQS) This project is built on Laravel, Processmaker to manage the operational workflows and mysql has database. ",
-image: "/projects/iconnect.jpeg"	},
+image: "/projects/nogicjqs.jpeg"	},
 	{
 		id: "sketch",
 		title: "iConnect",
@@ -51,7 +51,7 @@ image: "/projects/TGL.jpeg"	},
 		liveUrl: "https://fsdhgroup.com/",
 		description:
 			"FSDH Group is a financial services group that provides a range of services, including investment banking, asset management, and research. The company's website provides information about its products and services, as well as news and analysis on the financial markets.        ",
-image: "/projects/FSDH.jpeg"	},
+image: "/projects/fsdh.jpeg"	},
 	{
 		id: "light",
 		title: "Aviators Africa",
