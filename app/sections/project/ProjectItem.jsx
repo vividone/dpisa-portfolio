@@ -3,16 +3,15 @@ import { useInView } from "framer-motion";
 import Link from "next/link";
 import { Loader } from "components";
 import { FiExternalLink } from "react-icons/fi";
-import Image from "next/image";
+import ImageGallery from "react-image-gallery";
+// import Image from "next/image";
 
 import "react-image-gallery/styles/css/image-gallery.css";
 
 export function ProjectItem({ project, index }) {
-	const { description, image, liveUrl, title } = project;
+	const { description, images, liveUrl, title } = project;
 	const cardRef = useRef(null);
 	const isInView = useInView(cardRef, { once: true });
-
-
 
 	return (
 		<article
@@ -29,16 +28,15 @@ export function ProjectItem({ project, index }) {
 			<figure>
 				<div className="aspect-[12/9.2] w-full h-full">
 					<Suspense fallback={<Loader />}>
-						{/* <ImageGallery
-							items={image}
+						<ImageGallery
+							items={images}
 							showPlayButton={false}
 							showThumbnails={false}
 							showIndex
 							lazyload
 							additionalClass="gallery-item"
-						/> */}
+						/>
 
-						<Image src={image} alt={title} width="435" height="465" />
 					</Suspense>
 				</div>
 			</figure>
