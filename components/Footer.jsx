@@ -21,7 +21,7 @@ export function AppFooter() {
 				}}
 			>
 				<div className="flex flex-col md:flex-row justify-between items-center gap-10 md:gap-5">
-					<p className="font-light">Copyright &copy; {year} dpisa LLC</p>
+					<p className="font-light">Copyright &copy; {year} DPISA LLC | UEI: CTB1YLRZQB11  | Cage Code: 9NXP2</p>
 					<ScrollTop />
 					<ConnectMedia />
 				</div>
