@@ -92,8 +92,8 @@ export function ProjectsSection() {
 								<span className="font-bold">Cyber Security.</span>
 							</li>
 						</ul>
-						<Link 
-						href="https://docs.google.com/document/d/1ofFKgFjfMqRO6nIG2liiCHp16p76T7G9PFTrr7SUKxY/edit?usp=sharing"
+						<Link
+						href="https://docs.google.com/document/d/14ZbD96h7MW26mfeRlFVAdVX9M71A20bFlrJJQseXji4/edit?usp=sharing" 
 						aria-label="Our team profile"
 						ref={btnRef}
 						className="btn mt-10"
