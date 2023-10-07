@@ -47,7 +47,7 @@ export function ProjectsSection() {
 						</ErrorBoundary>
 					</Suspense>
 
-					<Link
+					{/* <Link
 						href={SITE_ROUTES.projects}
 						tabIndex={-1}
 						aria-label="Go to projects page"
@@ -59,8 +59,8 @@ export function ProjectsSection() {
 							transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
 						}}
 					>
-						{/* <button aria-label="See more projects">More projects</button> */}
-					</Link>
+						<button aria-label="See more projects">More projects</button> 
+					</Link> */}
 				</div>
 			</section>
 			<section id="intro" className="section">
@@ -92,6 +92,19 @@ export function ProjectsSection() {
 								<span className="font-bold">Cyber Security.</span>
 							</li>
 						</ul>
+						<Link 
+						href="https://docs.google.com/document/d/1ofFKgFjfMqRO6nIG2liiCHp16p76T7G9PFTrr7SUKxY/edit?usp=sharing"
+						aria-label="Our team profile"
+						ref={btnRef}
+						className="btn mt-10"
+						style={{
+							transform: btnRef ? "none" : "translateX(-50px)",
+							opacity: isBtnInView ? 1 : 0,
+							transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
+						}}>
+													<button aria-label="Our team profile">Our Team Profile</button> 
+
+						</Link>
 					</div>
 				</div>
 			</section>
